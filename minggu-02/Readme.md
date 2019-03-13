@@ -2,7 +2,7 @@
 
 1. Setelah login ke GitHub pilih repositori lalu masuk ke menu tab **Pull requests**
 	
-	![1](images/step1.png)
+	![1](images/step1.PNG)
 	
 2. Klik button **New pull request**
 	
@@ -10,4 +10,4 @@
 	
 3. Jika belum ada open pull request lain maka kita akan diinstruksikan untuk memilih branch mana yang ingin kita review
 	
-	![3] (images/step3.png)
+	![3](images/step3.PNG)
