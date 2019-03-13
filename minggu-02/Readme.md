@@ -8,6 +8,10 @@
 	
 	![2](images/step2.png)
 	
-3. Jika belum ada open pull request lain maka kita akan diinstruksikan untuk memilih branch mana yang ingin kita review
+3. Jika belum ada fork atau branch lain selain master maka kita tidak bisa melakukan pull request dan akan diinstruksikan untuk membuat branch baru agar dapat dibandingkan dengan master
 	
 	![3](images/step3.PNG)
+	
+4. Jika branch baru sudah dibuat maka kita bisa memilik branch mana yang akan kita pull lalu kita bisa menuliskan temuan atau ide kita terhadap code yang ingin kita ubah
+
+	![4](images/step4.PNG)
