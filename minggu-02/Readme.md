@@ -10,7 +10,7 @@
 	
 3. Jika belum ada fork atau branch lain yang berbeda dengan master, maka kita tidak bisa melakukan pull request dan akan diinstruksikan untuk membuat branch baru agar dapat dibandingkan dengan master. Kita bisa membuat branch dari repo tersebut menjadi repo di akun kita dengan menggunakan fitur fork
 	
-	Disini saya menggunakan repo dari [https://github.com/renfaizal/tcclanjut](Reno Faizal) 
+	Disini saya menggunakan repo dari [Reno Faizal](https://github.com/renfaizal/tcclanjut) 
 
 	![3](images/fork.png)
 
