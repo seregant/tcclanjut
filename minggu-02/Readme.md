@@ -10,6 +10,8 @@
 	
 3. Jika belum ada fork atau branch lain yang berbeda dengan master, maka kita tidak bisa melakukan pull request dan akan diinstruksikan untuk membuat branch baru agar dapat dibandingkan dengan master. Kita bisa membuat branch dari repo tersebut menjadi repo di akun kita dengan menggunakan fitur fork
 	
+	Disini saya menggunakan repo dari [https://github.com/renfaizal/tcclanjut](Reno Faizal) 
+
 	![3](images/fork.png)
 
 	Klik icon fork tersebut maka akan dibuat sebuah repo baru di akun kita dengan menduplikasi dari repo yang kita fork.
@@ -23,5 +25,9 @@
 	![6](images/fork3.png)
 	
 4. Setelah melakukan perubahan di repo fork kita, untuk melakukan merge ke repo asli kita perlu melakukan pull request.
+
+	Berikut adalah perubahan yang saya lakukan di repo saya sendiri
+
+	![7](images/step5.png)
 
 	![4](images/step4.PNG)
