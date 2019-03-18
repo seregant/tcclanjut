@@ -32,7 +32,7 @@
 
 	Kita buat pull request di repo asli
 
-	![4](images/step4.png)
+	![4](images/step4.PNG)
 
 	Kita klik link "Compare accross fork" lalu pilih repo kita dari hasil forking sebelumnya dan pilih branch dimana kita melakukan perubahan. Maka hasilnya akan seperti pada gambar di atas.
 
