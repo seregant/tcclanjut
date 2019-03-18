@@ -8,10 +8,20 @@
 	
 	![2](images/step2.png)
 	
-3. Jika belum ada fork atau branch lain selain master maka kita tidak bisa melakukan pull request dan akan diinstruksikan untuk membuat branch baru agar dapat dibandingkan dengan master
+3. Jika belum ada fork atau branch lain yang berbeda dengan master, maka kita tidak bisa melakukan pull request dan akan diinstruksikan untuk membuat branch baru agar dapat dibandingkan dengan master. Kita bisa membuat branch dari repo tersebut menjadi repo di akun kita dengan menggunakan fitur fork
 	
-	![3](images/step3.PNG)
+	![3](images/fork.png)
+
+	Klik icon fork tersebut maka akan dibuat sebuah repo baru di akun kita dengan menduplikasi dari repo yang kita fork.
+
+	![5](images/fork2.png)
+
+	Pada gambar di atas dapat kita lihat setelah menlakukan klik ke icon fork kita akan dialihkan ke akun kita sendiri ke repo hasil duplikasi dari repo yang kita fork, sehingga kita memiliki repo yang sama persis dengan repo dimana kita ingin berkontribusi di repo tersebut. Di repo baru ini kita bebas melakukan perubahan karena repo ini milik kita sendiri.
+
+	Berikut adalah hasil dari proses duplikasi dengan fork yang sudah selesai
+
+	![6](images/fork3.png)
 	
-4. Jika branch baru sudah dibuat maka kita bisa memilik branch mana yang akan kita pull lalu kita bisa menuliskan temuan atau ide kita terhadap code yang ingin kita ubah
+4. Setelah melakukan perubahan di repo fork kita, untuk melakukan merge ke repo asli kita perlu melakukan pull request.
 
 	![4](images/step4.PNG)
