@@ -30,4 +30,20 @@
 
 	![7](images/step5.png)
 
-	![4](images/step4.PNG)
+	Kita buat pull request di repo asli
+
+	![4](images/step4.png)
+
+	Kita klik link "Compare accross fork" lalu pilih repo kita dari hasil forking sebelumnya dan pilih branch dimana kita melakukan perubahan. Maka hasilnya akan seperti pada gambar di atas.
+
+5. Isi form keterangan perubahan pada repo
+
+	![8](images/step8.png)
+
+	Gambar di atas adalah form untuk mengisi keterangan dari pull request kita buat. Check "Allow edit from maintenance" apa bila kita ingin mengijinkan pemilik repo mengedit branch yang akan kita ajukan menjadi pull request untuk digabungkan ke repo asli.
+
+	Setelah itu klik "Create pull request"
+
+6. Berikut adalah hasil dari pull request yang telah dibuat.
+
+	![8](images/success.png)
