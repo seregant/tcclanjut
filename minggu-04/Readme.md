@@ -28,3 +28,5 @@ Dengan menggunakan platform Katacoda, berikut adalah langkah - langkah yang dije
     Dapat kita lihat output di atas adalah isi file /etc/hosts dari container alpine. Pada output tersebut ip dari container redis sudah dikonfigurasi agar dapat diakses menggunakan domain name "redis" untuk membuktikannya kita coba jalankan command ping pada container alpinde dengan melakukan link ke container redis seperti berikut.
 
     ![04](images/step4.png)
+
+    Dengan response reply seperti pada gambar di atas maka container alpine yang dijalankan dapat terhubung ke container redis.
