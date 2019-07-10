@@ -38,3 +38,13 @@
     ![05](images/step5.png)
 
 ## Docker Swarm
+
+Docker Swarm adalah tool yang digunakan sebagai container orchestration. Dengan menggunakan Docker Swarm kita dapat melakukan konfigurasi container cluster yang terdiri dari banyak container dengan beragam fungsi dan tujuan yang saling berhubungan  dengan konfigurasi yang terpusat.
+
+1. Membuat container cluster
+
+    Untuk membuat container cluster gunakan command `docker swarm init`.
+
+    ![06](images/step6.png)
+
+    
