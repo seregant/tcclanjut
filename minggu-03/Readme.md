@@ -18,3 +18,11 @@ VM akan mem-virtualisasikan hardware komputer di atas hypervisor sehingga hardwa
     - Flag `--name` digunakan untuk memberi nama container
     - Flag `-p` digunakan untuk men-expose container port
     - Parameter `redis:latest` adalah nama image yang akan dijalankan dalam container
+
+    Untuk melihat cotntainer yang sedang berjalan menggunakan command `dokcer ps`.
+
+    ![03](images/02.png)
+
+    Untuk melihat detail konfigurasi container gunakan command `docker inspect`.
+
+    ![04](images/02-1.png)
