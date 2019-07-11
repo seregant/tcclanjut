@@ -64,7 +64,7 @@ VM akan mem-virtualisasikan hardware komputer di atas hypervisor sehingga hardwa
 
     Untuk melihat daftar image yang tersedia dalam komputer yang digunakan dilakukan dengan menggunakan command `docker images`.
 
-    ![09](images/21-1.png)
+    ![09](images/22-1.png)
 
     Test image dengan menjalankannya dengan meng-expose port container sesuai dengan port yang didefinisikan dalam script `EXPOSE` pada Dockerfile.
 
