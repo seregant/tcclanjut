@@ -47,4 +47,31 @@ Docker Swarm adalah tool yang digunakan sebagai container orchestration. Dengan 
 
     ![06](images/step6.png)
 
+    Untuk menambahkan server menjadi anggota cluster menggunakan command `docker swarm join`
+
+    ![07](images/step7.png)
+
+    Command `docker swarm join` diikuti dengan parameter `--token` dimana nilai dari parameter tersebut adalah token autentikasi untuk dapat menjadi anggota dari cluster yang telah dibuat dengan menggunakan `docker swarm init`.
+
+    Untuk melihat daftar server yang menjadi anggota clluster (node) menggunakan command `docker node ls`.
+
+    ![08](images/step8.png)
+
+    Pada kolom `MANAGER STATUS` value `Leader` menandakan bahwa host tersebut adalah host yang digunakan untuk mengkonfigurasi cluster.
+
+2. Konfigurasi cluster network
+
+    Untuk berkomunikasi antara container satu dengan yang lain perlu dibuat network service dalam cluster. Untuk membuatnya gunakan command `docker network create -d overlay skynet`.
+
+    ![09](images/step9.png)
+
+    Setelah cluster network dikonfigurasi kita dapat membuat service agar aplikasi yang berjalan di dalam cluster dapat saling berkomunikasi dan diakses. Untuk membuat service dapat dilakukan dengan command seperti berikut.
+
+    ![10](images/step10.png)
+
+    Untuk melihat daftar service yang sudah dibuat dapat menggunakan command `docker service ls`.
+
+    ![11](images/step11.png)
+
+    
     
