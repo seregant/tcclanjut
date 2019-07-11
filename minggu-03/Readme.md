@@ -49,16 +49,27 @@ VM akan mem-virtualisasikan hardware komputer di atas hypervisor sehingga hardwa
 
     Dockerfile adalah script yang digunakan untuk membuat sebuah image.
 
-    ![07](images/11.png)
+    ![07](images/21.png)
 
-    Pada contoh di atas Dockerfile berisi script `FROM` untuk mendeklarasikan base image yang digunakan dan `COPY` untuk menyalin file dan folder yang terletak di direktori yang sama dengan Dockerfile ke dalam image container yang akan dibuat.
+    - Pada contoh di atas Dockerfile berisi script `FROM` untuk mendeklarasikan base image yang digunakan. 
+    - Script `COPY` untuk menyalin file dan folder yang terletak di direktori yang sama dengan Dockerfile ke dalam image container yang akan dibuat. 
+    - Script `EXPOSE` digunakan untuk menmbuka akses network container pada port tertentu.
+    - Script `CMD` untuk mendeklarasikan command apa yang akan djalankan saat container dibuat.
 
     Setelah file Dockerfile disimpan build immage dilakukan dengan menggunakan command `docker build` seperti berikut.
 
-    ![08](images/12.png)
+    ![08](images/22.png)
 
     Flag `-t` pada contoh di atas digunakan untuk memberi tag pada image yang akan dibuat dan di akhir command harus di deklarasikan dimana letak Dockerfile berada. Pada contoh di atas letak Dockerfile berada di current directory sehingga ditulis dengan tanda titik.
 
     Untuk melihat daftar image yang tersedia dalam komputer yang digunakan dilakukan dengan menggunakan command `docker images`.
 
-    ![09](images/12-1.png)
+    ![09](images/21-1.png)
+
+    Test image dengan menjalankannya dengan meng-expose port container sesuai dengan port yang didefinisikan dalam script `EXPOSE` pada Dockerfile.
+
+    ![10](images/23.png)
+
+    Test aplikasi dengan mengakses docker host pada port yang digunakan untuk expose service
+
+    ![11](images/24.png)
