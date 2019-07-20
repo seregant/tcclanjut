@@ -48,7 +48,7 @@
 
     Untuk isi file dari __layout.html__ adalah sebagai berikut :
 
-    ![07](img/03-02.png)
+    ![07](img/3-02.png)
 
     Dalam dile html tersebut disisipkan code - code bahasa go dengan tanda pemisah `{{}}`, dua kali kurung kurawal. Pada saat main program di jalankan code go pada template akan membaca variabel yang dimasukkan dan output programnya akan dituliskan sesuai dengan posisi code pada file template seperti berikut.
 
