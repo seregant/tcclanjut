@@ -37,3 +37,19 @@
     ![05](img/2-04.png)
 
     Dalam output tersebut dapat kita lihat nilai dari variabel title adalah `Nama Buku` dan nilai dari variabel page adalah `100`.
+
+3. HTML Template
+
+    Dalam bahasa pemrograman go http server dapat melakukan response halaman web dengan menggunakan library __html/template__ yang merupakan bawaan dari default package go.
+
+    ![06](img/3-01.png)
+
+    Pada code di atas, template html diambil dari file __layout.html__ yang dibaca menggunakan `fungsi ParseFiles()` lalu hasil dari pembacaan dijadikan parameter pada fungsi `Must()` untuk memasukan template ke dalam memory program. Selanjuta nya variabel - variabel dalam template di isi data melalui fungsi response http dan di kirimkan ke browser client menggunakan fungsi `Execute()`.
+
+    Untuk isi file dari __layout.html__ adalah sebagai berikut :
+
+    ![07](img/03-02.png)
+
+    Dalam dile html tersebut disisipkan code - code bahasa go dengan tanda pemisah `{{}}`, dua kali kurung kurawal. Pada saat main program di jalankan code go pada template akan membaca variabel yang dimasukkan dan output programnya akan dituliskan sesuai dengan posisi code pada file template seperti berikut.
+
+    ![08](img/3-04.png)
