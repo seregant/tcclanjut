@@ -41,4 +41,22 @@ Kubernetes adalah teknologi container orchestration. Dengan Kubernetes dapat dil
 
     Untuk melakukan testing service pada exoosed deloyment yang telah dilakukan dapat menggunakan command curl seperti berikut :
 
-    ![07](images/1-07)
+    ![07](images/1-07.png)
+
+4. Deployment scaling
+    Istilah scaling dalam deployment adalah penambahan jumlah replika pod untuk penambahan resource komputasi untuk aplikasi yang dijalankan dalam deployment.
+
+    ![08](images/1-09.png)
+
+    Pada gambar di atas proses scaling dijalankan dengan menggunakan command `kubectl scale ` yang diikuti flag `--replicas` dengan nilai parmaeter jumlah pod yang diinginkan dan nama deployment yang ingin dilakukan scaling. Untuk melakukan pengecekan hasil scaling dapat dilakukan dengan melihat jumlah pod.
+
+5. Penggunaan file .yaml
+    Pembuatan konfigurasi objek anggota cluster Kuberentes dapat dilakukan dengan membaca file dengan format .yaml. Berikut adalah contoh konfigurasi deployment pada file .yaml :
+
+    ![09](images/2-01.png)
+
+    Untuk mengaplikasikan konfigurasi tersebut menggunakan command `kubectl apply -f` diikuti dengan nama file konfigurasi yang ingin diaplikasikan.
+
+    ![10](images/2-09)
+
+    Dan utnuk mengecek status depoyment dapat dilakukan dengan cara yang sama seperti pada deployment yang dibuat dengan menggunakan commandline langsung.
